@@ -1,0 +1,20 @@
+@import "./style/iconfont.wxss";
+
+/* 在微信小程序中， 不支持通配符* */
+page,view,text,swiper,swiper-item,image,navigator{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/* 全局样式 */
+page{
+  /* 主题颜色  */
+  --themColor:#eb4450;
+  /* 统一字体 */
+  font-size: 28rpx;
+
+}
+image{
+  width:100%;
+}
